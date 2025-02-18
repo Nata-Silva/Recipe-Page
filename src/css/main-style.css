@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.conteudo-principal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 1660px;
+    border-radius: 35px;
+    padding: 40px;
+}
+
+
+.imagem-receita {
+    width: 100%;
+    border-radius: 20px;
+}
+.introduçao-receita h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+.introduçao-receita p{
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+}
+
+
+
+.tempo-preparacao {
+    font-family: "Outfit", serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 30px;
+    height: 180px;
+}
+.tempo-preparacao h2 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    padding: 20px;
+}
+.tempo-preparacao li {
+    list-style: inside;
+    padding: 5px;
+    margin: 0px 20px;
+    color: hsl(30, 10%, 34%);
+}
+.tempo-preparacao li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+
+.ingredientes {
+    margin-top: 30px;
+    height: 240px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.ingredientes h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.ingredientes li {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    padding: 6px;
+    margin-left: 25px;
+}
+.ingredientes li::marker {
+    color:  hsl(14, 45%, 36%);
+}
+
+
+.instrucoes {
+    margin-top: 30px;
+    height: 350px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.instrucoes h1 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.instrucoes li {
+    padding-left: 10px;
+    margin: 12px 0px 0px 25px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+}
+.instrucoes li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: "Outfit", serif;
+}
+.instrucoes strong {
+    font-weight: 600;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%)
+}
+
+
+.nutricao {
+    margin-top: 30px 0px 0px 0px;
+    height: 300px;
+}
+.nutricao p {
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    padding: 10px 0px 15px 0px;
+}
+.nutricao th {
+    width: 310px;
+    height: 40px;
+    padding-right: 180px;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+}
+.nutricao h1 {
+    margin: 30px 0px 10px 0px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+.nutricao .total {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: "Outfit", serif;
+}
+.nutricao .macro-nutrientes {
+    font-weight: 400;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+}
+.nutricao .macro-nutrientes-F {
+    font-weight: 400;
+    font-family: "Outfit", serif;
+    color: hsl(30, 10%, 34%);
+    border: none;
+}
+.nutricao .total-F {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: "Outfit", serif;
+    border: none;
+}
